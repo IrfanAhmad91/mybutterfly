@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.addEventListener('visibilitychange', handleVisibilityChange);
 
         // FINAL PAGE trigger
-        document.querySelector('.page[data-page="4"] .next-btn').addEventListener('click', () => {
+        document.querySelector('.page[data-page="7"] .next-btn').addEventListener('click', () => {
             setTimeout(() => {
                 finalOverlay.style.display = 'flex';
                 setupFinalOverlayEvents();
