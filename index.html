@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="theme-color" content="#ff66b3">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>My Butterfly</title>
     <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap"> 
 </head>
 <body>
-    <!-- Music Selection Screen -->
     <div class="music-selection" id="musicSelection">
         <h2>Pilih salah satu lagu yang kamu 💐 <br>sukaa🌸</h2>
         <div class="song-options">
@@ -30,18 +34,16 @@
         </div>
     </div>
 
-    <!-- Book Container -->
     <div class="book-container" id="bookContainer" style="display: none;">
         <div class="book" id="book">
             <div class="book-cover" id="cover">
                 <h1>My Butterfly 🦋</h1>
             </div>
             <div class="book-pages" id="pages">
-                <!-- Page 1 -->
                 <div class="page active" data-page="1">
                     <div class="page-content">
                         <h2>For Someone Special 🌸</h2>
-                        <img src="assets/butterfly.png" alt="Butterfly">
+                        <img src="assets/img/1.jpg" alt="Butterfly">
                         <p>Dunia ini diciptakan dengan segala ketidaksempurnaan dan kekurangan. Kita punya memiliki kekurangan, orang lain pun memiliki kelemahan. People come and go, meski segelintir mau bertahan.</p>
                         <p>Bisa jadi satu per satu orang yang pergi karena sudah beda tujuan. Namun, ada orang yang senantiasa hadir karena percaya pada nilai yang kita punya. Gapapa, sedikit orang yang ada, akan tetapi tidak berkurang rasa pedulinya.</p>
                         <p>Serahkan saja semua kepada Tuhan. Apapun yang dikerjakan, biarkan proses sesuai prosedur dan acuan. Kalau pun belum, bisa jadi mencegah kita pada keburukan yang tidak kita ketahui.</p>
@@ -57,7 +59,6 @@
                     </div>
                 </div>
                 
-                <!-- Page 2 -->
                 <div class="page" data-page="2">
                     <div class="page-content">
                         <h2>Your Smile eeee💖</h2>
@@ -65,11 +66,74 @@
                         <p>Aku tidak pernah tahu apa yang sedang kamu lalui, atau hal hal apa yang kamu simpan sendiri dalam diam. 
                             Tapi aku selalu berharap, semoga hatimu cukup kuat untuk menampung semua perasaan yang kamu tahan. 
                             dan semoga langkahmu tetap kokoh walau sering diguncang hal hal yang tidak kamu ceritakan pada siapapun.</p>
-                        <p>Kalau suatu saat kamu merasa lelah, aku ingin semesta memelekmu lebih dulu sebelum siapapun datang. 
+                        <p>Tanpa harus tahu detailnya, aku ingin semua yang kamu jalani dipermudah. Entah itu pekerjaan, hubungan, kepercayaan dirimu, atau bahkan hanya sekedar tidur malam yang utuh.
+                            Aku ingin  kamu mendapatkan semua itu dengan lapang-bukan karena aku ada, tapi karena kamu pantas.
+                        </p>
+                        
+                        <p>Kalau suatu saat kamu merasa lelah, aku ingin semesta memelukmu lebih dulu sebelum siapapun datang. 
                             Aku ingin segala kesedihan yang mungkin kamu simpan tidak bertahan terlalu lama. 
                             Aku ingin kamu tahu, meski diam, ada seseorang yang diam diam berharap langitmu selalu cerah.</p>
-                        <p>
+                    </div>
+                    <div class="navigation-controls">
+                        <div class="page-indicator">
+                            <div class="dot"></div>
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                        </div>
+                        <button class="next-btn">Next Page →</button>
+                    </div>
+                </div>
 
+                <div class="page" data-page="3">
+                    <div class="page-content">
+                        <h2>Your Smile 💖</h2>
+                        <img src="assets/heart.png" alt="Heart">
+                        <p>
+                            Aku tidak punya peran besar dalam hidupmu. Mungkin hanya sebagai nama samar yang pernah lewat, atau bahkan sebagai nama samar yang pernah kamu ingat. 
+                            Tapi meski begitu, perhatianku padamu tidak pernah kecil. Karena sejak awal, aku tidak pernah berniat menjadi pusatnya hanya ingin kamu selalu cukup.
+                        </p>
+
+                        <p>
+                            Di antara semua hal yang berjalan begitu cepat di dunia ini, aku ingin kamu tetap punya ruang untuk bernapas. Aku ingin kamu merasa tidak perlu selalu kuat,
+                            tidak perlu selalu siap, tidak perlu selalu terlihat baik-baik saja. Karena bahkan manusia sebaik kamu pun boleh merasa lelah.
+                        </p>
+
+                        <p>
+                            Kamu adalah seseorang yang aku jaga dengan cara paling diam. Tidak dengan hadir setiap waktu, tidak dengan kata-kata manis atau pelukan hangat. Tapi dengan keyakinan bahwa
+                            kebaikan sekecil apapun, akan selalu kembali pada orang-orang yang berhati tulus-sepertimu.
+                        </p>
+                    </div>
+                    <div class="navigation-controls">
+                        <div class="page-indicator">
+                            <div class="dot"></div>
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                        </div>
+                        <button class="next-btn">Next Page →</button>
+                    </div>
+                </div>
+                
+                
+                <div class="page" data-page="4">
+                    <div class="page-content">
+                        <h2>Your Smile 💖</h2>
+                        <img src="assets/heart.png" alt="Heart">
+                        <p>
+                            Kalau suatu hari semuanya terasa berat dan kamu tidak tahu harus kemana, aku berharap kamu ingat bahwa kamu pernah-dan aku dipikirkan dengan cara yang paling tenang.
+                        </p>
+
+                        <p>
+                            Aku tidak ingin kamu membenci siapapun dalam kehidupanmu, apalagi menaruh dendam hingga bertahun-tahun. Menyadari bahwa siapapun bisa meninggalkanmu dan mengkhianati ketulusan hatimu, tapi
+                            kamu harus ingat bukan tugasmu untuk menggenggam hati seseorang manusia, kamu tak memiliki hak lebih agar seseorang bertahan di kehidupanmu.
+                        </p>
+
+                        <p>
+                            Dihidup ini, kamu cukup memberikan yang terbaik kepada siapapun yang singgah ke dalam hidupmu. Ketika ada seseorang yang datang lalu pergi setelah menyakitimu, kamu lebih memilih untuk berdoa
+                            untuk kebaikan dunianya. Kamu boleh lelah, pipi pun boleh basah, tapi kamu dilahirkan di dunia ini bukan untuk menyerah. Percayalah, pasti semua itu akan menjadi lebih indah.
+                        </p>
+
+                        <p>
+                            Kuatkan perempuan itu tuhan dia seorang anak perempuan yang kurang bisa mengungkapkan isi hatinya kepada siapapun. Kini dia memperjuangkan masa depannya, beri dia kesehatan dan kesabaran yang tiada habisnya, jangan beri dia beban yang berat.
                         </p>
                     </div>
                     <div class="navigation-controls">
@@ -82,16 +146,30 @@
                     </div>
                 </div>
 
-                <!-- Page 2 -->
-                <div class="page" data-page="3">
+                <div class="page" data-page="5">
                     <div class="page-content">
                         <h2>Your Smile 💖</h2>
                         <img src="assets/heart.png" alt="Heart">
-                        <p>Aku tidak tahu pasti kapan rasa itu mulai tumbuh. Munkgin sejak tatapan itu melihat ke arahku. Aku tidak sedang mencari siapaun, Tapi kehadiranmu datang seperti sore yang mendukung tapi tidak hujan, diam dan teduh. cukup untuk membuatku betah berlama-lama memperhatikan langit.</p>
-                        <p>Ada banyak hal yang tak pernah kubisikkan, tentang bagaimana kehadiranmu menyisakkan ruang tenang di pikiranku, tentang caramu menghargai orang lain tanpa membuat mereka merasa kecil, dan tentang bagaimana semua itu, perlahan, mengubah cara hatiku merasa.</p>
-                        <p>Tidak terasa, kuliah hampir selesai, banyak hal yang telah terjadi dan "sudah sejauh apa, dirimu sebagai manusia". Aku yakin sekali, untuk sampai waktu sekarang kamu harus tertatih-tatih.</p>
-                        <p>Selamat, selamat sudah berjuang dan memilih untuk tidak menyerah, selamat atas dirimu yang masih mampu tersenyum meski ini bukanlah hidup yang kamu inginkan. Kuharap kamu tidak perlu menyesal atas hidup yang tuhan titipkan kepadamu, dan pada setiap takdir yang menghampiri kamu semoga setiap tetesnya menjadi hal yang paling kamu syukuri</p>
-                    
+                        <p>
+                            Ada sesuatu dalam caramu melangkah, yang membuatku terus diam-diam memperhatikan. Bukan karena kammu selalu kuat, tapi justru kamu selalu bergerak, 
+                            meski sering kali harus menyeret rasa lelah yang tak pernah kammu ceritakan.
+                        </p>
+                        <p>
+                            Tak semua orang tau cerita di balik matamu yang terlihat tenang. Tapi aku tahu, kamu menyimpan banyak hal. Luka yang kamu rawat sendiri. Proses panjang 
+                            yang tidak pernah kamu pamerkan. Dan setiap kali kamu memilih untuk tetap berjalan, meski dunia tidak selalu ramah, rasanya seperti melihat seseorang yang begitu luar biasa tanpa harus menjadi siapa - siapa
+                        </p>
+                        <p>
+                            Kamu tidak pernah menjual sedihmu, ke siapapun dan mungkin itu membuatku semakin yakin.. bahwa ada kekuatan besar dalam dirimu. Caramu menghadapi hari-hari yang berat, caramu tersenyum bahkan saat banyak hal 
+                            di dalam-mu sedang runtuh semuanya membuatku terdiam kama.
+                        </p>
+                        <p>
+                            Entah sejak kapan, tapi aku jadi belajar banyak hanya dari melihatmu menjalani hari. Bahwa ternyata keberanian bukan soal menang, tapi tentang mencoba lagi. Tentang memilih untuk tidak pergi, meski semesta tak selalu memberi alasan untuk bertahan. Dan kamu 
+                            melakukan itum dengan cara yang begitu tenang.
+                        </p>
+                        <p>
+                            Ada hari-hari yang pasti terasa berat sekali, aku yakin itu. Tapi kamu selalu berhasil melampauinya, bahkan saat kamu berpikir tak bisa lagi. Kadang aku bertanya-tanya bagaimana kamu bisa tetap berdiri. 
+                            Tapi mungkin memang ada cahaya kecil dalam dirimu yang terus menyala, bahkan saat gelap mencoba memadamkan segalanya.
+                        </p>
                     </div>
                     <div class="navigation-controls">
                         <div class="page-indicator">
@@ -102,35 +180,63 @@
                         <button class="next-btn">Next Page →</button>
                     </div>
                 </div>
-                
-                <!-- Page 3 -->
-                <div class="page" data-page="4">
+
+                <div class="page" data-page="6">
                     <div class="page-content">
-                        <h2>My Feelings 🌹</h2>
-                        <img src="assets/heart-butterfly.png" alt="Heart Butterfly">
-                        <p>I know i may not best the person you've ever met... not the brightest star in your sky, not the one who always says or does the right things. But please belive me when i say...</p>
-                        <p>every feeling i've ever had for you has been real. i never prented, not even for a moment. I loved you  quitely, but deeply. and i still do. I know some days weigh heavier on your heart than others.</p>
-                        <p>You carry the weigh of so much, yet you do it withs such quiet strength. i see that, even if you think no one does. I admire the way you keep going, even when you're tired, even when it hurts.</p>
-                        <p>So this is just a small reminder.. You are loved, you matter. adn i hope, today adn always, you feel even a fraction of the love you've so selfleesly given to everyone else.</p>
-                        <p>because love like that doesn't just disappear. it lingers, it stays. maybe not in the way it once did, maybe not in the way we wanted it to but in the way that matters.</p>
-                        <p>So no, i don't regret loving you. i dont regret any of it becaruse loving you was worth itu all</p>
-                        
+                        <h2>Your Smile 💖</h2>
+                        <img src="assets/heart.png" alt="Heart">
+                        <p>
+                            Kamu mungkin tak merasa istemwa. Tapi dari sudut pandangku, kamu punya cara yang sangat tulus untuk tetap menjadi diri sendiri, tanpa kehilangan arah.
+                            Itu hal yang tidak mudah. Itu hal yang diam-diam membuatku terus menaruh rasa "hormat"
+                        </p>
+                        <p>
+                            Apapun yang sedang kamu jalani saat ini, aku tahu itu tidak mudah. Tapi kamu terus ada, terus mencoba, terus hidup dengan seluruh napasmu. Dan kadang, itu lebih dari cukup. Bahkan, jauh lebih cukup
+                        </p>
+                        <p>
+                            Jika tidak ada yang mengatakan ini padamu, biarlah aku menjadi yang diam-diam menyimpannya. Bahwak kamu, dengan semua yang kamu jalani, dengan semua yang kamu tahan, telah menyentuh sesuatu yang dalam di hatiku, Mungkin bukan lewat kata-kata, tapi dengan caramu bertahan.
+                        </p>
+                        <p>
+                            Dan semoga suatu hari nanti, saat kamu menengok kebelakang, kamu bisa melihat dirimu sendiri sebagaimana aku melihatmu saat ini. seseorang yang tidak pernah berhenti berusaha menjadi baik.. dengan cara yang begitu hening dan mengagumkan.
+                        </p>
                     </div>
                     <div class="navigation-controls">
                         <div class="page-indicator">
                             <div class="dot"></div>
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                        </div>
+                        <button class="next-btn">Next Page →</button>
+                    </div>
+                </div>
+
+                <div class="page" data-page="7">
+                    <div class="page-content">
+                        <h2>Your Smile 💖</h2>
+                        <img src="assets/heart.png" alt="Heart">
+                        <p>Ada banyak hal yang tak pernah kubisikkan, tentang bagaimana kehadiranmu menyisakkan ruang tenang di pikiranku, 
+                            tentang caramu menghargai orang lain tanpa membuat mereka merasa kecil, dan tentang bagaimana semua itu, perlahan, mengubah cara hatiku merasa.</p>
+                        <p>Tidak terasa, kuliah hampir selesai, banyak hal yang telah terjadi dan "sudah sejauh apa, dirimu sebagai manusia".
+                             Aku yakin sekali, untuk sampai waktu sekarang kamu harus tertatih-tatih, kamu juga mati-matian dalam menyembuhkan lukamu dan kamu harus memilih untuk bertahan di dalam badai hidupmu, sebab tidak ada pilihan lain</p>
+                        <p>Selamat, selamat sudah berjuang dan memilih untuk tidak menyerah, selamat atas dirimu yang masih mampu tersenyum meski ini bukanlah hidup yang kamu inginkan. 
+                            Kuharap kamu tidak perlu menyesal atas hidup yang tuhan titipkan kepadamu, dan pada setiap takdir yang menghampiri kamu semoga setiap tetesnya menjadi hal yang paling kamu syukuri</p>
+                        <p>
+                            Semoga tuhan menjaga tiap langkahmu, menjauhkanmu dari apa-apa yang merapuhkanmu, menguatkan pundakmu yang memikul banyak beban itu. terakhir, semoga apa yang aku tulis ini tersampaikan kepada jaraaaa dan akan selalu bergema sampai selamnanyaaaaa 
+                        </p>
+                    </div>
+                    <div class="navigation-controls">
+                        <div class="page-indicator">
                             <div class="dot"></div>
                             <div class="dot active"></div>
+                            <div class="dot"></div>
                         </div>
-                        <button class="next-btn">Close Book ✨</button>
+                        <button class="next-btn">Akhir dari halaman, klik -> </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Tambahkan ini di dalam <body>, setelah <div id="bookContainer"> -->
-<div class="final-overlay" id="finalOverlay" style="display: none;">
+    <div class="final-overlay" id="finalOverlay" style="display: none;">
     <div class="final-content">
         <div class="photos">
             <img src="assets/img/1.jpg" alt="Photo 1">
@@ -144,7 +250,6 @@
     </div>
 </div>
 
-<!-- Optional Sound -->
 <audio id="yesSound" src="assets/sounds/yes.mp3"></audio>
 <audio id="cuteSound" src="assets/sounds/cute.mp3"></audio>
 
